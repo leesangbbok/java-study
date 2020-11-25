@@ -1,0 +1,30 @@
+package ex3;
+
+
+public class IpoTest {
+	 static int cc = 10;
+	public static void input() {
+		System.out.println("=============================");
+		System.out.println("input");
+		System.out.println("=============================");
+	}
+	
+	public static void process() {
+		cc--;
+		System.out.println(cc +"process");
+	}
+	
+	public static void output() {
+		System.out.println("=============================");
+		System.out.println("output");
+		System.out.println("=============================");
+	}
+	
+	public static void main(String[] args) {
+		input();
+		process();
+		output();
+		
+	}
+
+}

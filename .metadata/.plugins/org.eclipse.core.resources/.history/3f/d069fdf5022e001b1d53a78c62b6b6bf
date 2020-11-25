@@ -1,0 +1,18 @@
+package ex4;
+
+public class IpoTest {
+	
+	static int input(){
+		System.out.println("입력");
+		return 0;
+	}
+	static void process() {
+		System.out.println("처리");
+	}
+	
+	public static void main(String[] args) {
+		input();
+		process();
+		System.out.println("출력");
+	}
+}

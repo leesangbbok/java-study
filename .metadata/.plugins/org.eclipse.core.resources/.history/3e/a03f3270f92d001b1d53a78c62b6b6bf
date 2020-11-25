@@ -1,0 +1,13 @@
+package ex3;
+
+
+public class IpoTest {
+
+	public static void main(String[] args) {
+		System.out.println("input");
+		System.out.println("process");
+		System.out.println("output");
+		
+	}
+
+}

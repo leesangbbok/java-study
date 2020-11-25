@@ -1,0 +1,9 @@
+package ex3;
+
+public class IpoTest {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

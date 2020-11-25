@@ -1,0 +1,14 @@
+package ex7;
+
+public class SwitchTest {
+
+	public static void main(String[] args) {
+		int year = 2020;
+		String ddi;
+		
+		switch(year % 12) {
+			case 0 : 
+		}
+	}
+
+}

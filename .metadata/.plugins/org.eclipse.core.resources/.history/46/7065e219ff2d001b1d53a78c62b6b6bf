@@ -1,0 +1,39 @@
+package ex3;
+
+import java.util.Date;
+
+class IpoNew{
+	public  void title() {
+		System.out.println("IpoTest2");		
+	}
+	public  void input() {
+		System.out.println("input");
+	}
+	public  void process() {
+		System.out.println("process");
+	}
+	public  void output() {
+		System.out.println("output");
+	}
+	public static void line() {
+		System.out.println("====================");
+	}
+}
+
+
+public class IpoTest3 {
+	
+	public static void main(String[] args) {
+		IpoNew ipo2 = new IpoNew();
+		
+		IpoNew.line();
+		ipo2.title();
+		ipo2.input();
+		ipo2.process();
+		ipo2.output();
+		
+		Date today = new Date();
+		System.out.println(today.toLocaleString());
+		
+	}
+}

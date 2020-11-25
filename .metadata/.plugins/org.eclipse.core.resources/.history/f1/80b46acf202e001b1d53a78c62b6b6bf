@@ -1,0 +1,28 @@
+package ex5;
+
+public class TypeTest2 {
+	
+	public static void main(String[] args) {
+		//char, String
+		char grade;
+		boolean pass = false;
+		int score = 58;
+		
+		
+		if(score > 60) {
+			grade = 'A';
+			pass = true;
+		}else{
+			grade = 'B';
+			pass = false;
+		}
+		
+		if(pass == true) {
+			System.out.println("통과 " + grade);
+		}else {
+			System.out.println("다시 " + grade);
+		}
+		
+		String name1 = "바이든";
+	}
+}

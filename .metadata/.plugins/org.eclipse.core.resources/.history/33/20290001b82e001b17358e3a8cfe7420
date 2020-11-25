@@ -1,0 +1,16 @@
+package ex6;
+
+class Computer {
+	String name = "PC";
+	int ram = 32;
+	double speed = 3.2;
+	
+}
+
+public class ComputerTest {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

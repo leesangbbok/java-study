@@ -1,0 +1,28 @@
+package ex3;
+
+class IpoNew{
+	public  void title() {
+		System.out.println("IpoTest2");		
+	}
+	public  void input() {
+		System.out.println("input");
+	}
+	public  void process() {
+		System.out.println("process");
+	}
+	public  void output() {
+		System.out.println("output");
+	}
+	public static void line() {
+		System.out.println("====================");
+	}
+}
+
+
+public class IpoTest3 {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

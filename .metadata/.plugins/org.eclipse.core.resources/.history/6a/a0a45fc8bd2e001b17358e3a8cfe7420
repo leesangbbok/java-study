@@ -1,0 +1,25 @@
+package ex6;
+
+import java.util.Scanner;
+
+public class OperatorTest {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in); 
+		
+		int v1, v2;
+		int v;
+		String  v1Str = in.nextLine();
+		v1 = Integer. parseInt(v1Str);
+		String  v2Str = in.nextLine();
+		v2 = Integer. parseInt(v2Str);
+		
+		v = v1 + v2;
+		System.out.println(v);
+		v = v1 - v2;
+		System.out.println(v);
+		
+	}
+
+}

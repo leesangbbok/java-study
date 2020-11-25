@@ -1,0 +1,19 @@
+package ex6;
+
+public class OperatorTest {
+
+	public static void main(String[] args) {
+		
+		int v1, v2;
+		int v;
+		v1 = 7; 
+		v2= 2;
+		
+		v = v1 + v2;
+		System.out.println(v);
+		v = v1 - v2;
+		System.out.println(v);
+		
+	}
+
+}

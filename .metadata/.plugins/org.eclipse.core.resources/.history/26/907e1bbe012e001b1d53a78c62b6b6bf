@@ -1,0 +1,7 @@
+package ex4;
+
+public class IpoTest {
+	public static void main(String[] args) {
+		System.out.println("ют╥б");
+	}
+}

@@ -1,0 +1,15 @@
+package ex6;
+
+public class WrapperClassTest {
+
+	public static void main(String[] args) {
+		int age = 32;
+		int num1 = 2147483647;
+		
+		System.out.println(num1);
+		
+		System.out.println(Integer.MAX_VALUE);
+		
+	}
+
+}

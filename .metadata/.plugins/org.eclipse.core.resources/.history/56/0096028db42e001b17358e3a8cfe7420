@@ -1,0 +1,21 @@
+package ex6;
+
+public class ClassTest {
+	
+	add(){
+		int v1 = 7, v2 = 2;
+		int v;
+		v= v1+ v2;
+		System.out.println(v);
+	}
+	
+	public static void main(String[] args) {
+		//변수 선언
+		// 타입 변수명 = data;
+		//  int  num  =  21;
+		
+		add();
+		
+	} //mainMethod end
+	
+}//classTest end

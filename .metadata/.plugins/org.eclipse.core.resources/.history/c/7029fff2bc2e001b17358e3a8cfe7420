@@ -1,0 +1,24 @@
+package ex6;
+
+import java.util.Scanner;
+
+public class OperatorTest {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in); 
+		in.nextLine();
+		
+		int v1, v2;
+		int v;
+		v1 = 7; 
+		v2= 2;
+		
+		v = v1 + v2;
+		System.out.println(v);
+		v = v1 - v2;
+		System.out.println(v);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package ex7;
+
+public class IfTest {
+
+	public static void main(String[] args) {
+		
+		int age = 17 ;
+		
+		if(age > 19) {
+			System.out.println("성인");
+		}else {
+			System.out.println("미성년자");
+		}
+		
+	}
+
+}

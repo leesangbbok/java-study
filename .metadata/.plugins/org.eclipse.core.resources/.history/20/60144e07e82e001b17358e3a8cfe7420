@@ -1,0 +1,46 @@
+package ex7;
+
+public class SwitchTest {
+	
+	public void getDdi(){
+		int year = 2020;
+		String ddi = "";
+		
+		switch(year % 12) {
+			case 0 : ddi = "¿ø¼şÀÌ";
+			break;
+			case 1 : ddi = "´ß";
+			break;
+			case 2 : ddi = "°³";
+			break;
+			case 3 : ddi = "µÅÁö";
+			break;
+			case 4 : ddi = "Áã";
+			break;
+			case 5 : ddi = "¼Ò";
+			break;
+			case 6 : ddi = "È£¶ûÀÌ";
+			break;
+			case 7 : ddi = "Åä³¢";
+			break;
+			case 8 : ddi = "¿ë";
+			break;
+			case 9 : ddi = "¹ì";
+			break;
+			case 10 : ddi = "¸»";
+			break;
+			case 11 : ddi = "¾ç";
+			break;
+		}
+		
+		System.out.println(ddi + "¶ì");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		SwitchTest st = new SwitchTest();
+		st.getDdi();
+	}
+
+}

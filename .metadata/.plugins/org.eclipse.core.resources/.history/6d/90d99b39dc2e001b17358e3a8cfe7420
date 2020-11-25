@@ -1,0 +1,21 @@
+package ex7;
+
+import java.util.Scanner;
+
+public class IfTest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int age = sc.nextInt();
+		
+		if(age > 19) {
+			System.out.println("성인");
+		}else {
+			System.out.println("미성년자");
+		}
+		
+	}
+
+}

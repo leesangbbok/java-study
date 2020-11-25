@@ -1,0 +1,16 @@
+package ex2;
+
+import java.util.Date;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		
+		System.out.println(new Date());
+		System.out.println( (new Date()).toLocaleString() );
+		
+		
+	}
+	
+	//이상복, 문정석, 전지훈
+}

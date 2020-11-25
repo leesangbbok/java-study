@@ -1,0 +1,41 @@
+package ex5;
+
+public class TypeTest2 {
+	
+	public static void main(String[] args) {
+		//char, String
+		char grade;
+		boolean pass = false;
+		int score = 58;
+		
+		
+		if(score > 60) {
+			grade = 'A';
+			pass = true;
+		}else{
+			grade = 'B';
+			pass = false;
+		}
+		
+		if(pass == true) {
+			System.out.println("통과 " + grade);
+		}else {
+			System.out.println("다시 " + grade);
+		}
+		
+		String aoa1 = "유나";
+		String aoa2 = "혜정";
+		String aoa3 = "설현";
+		String aoa4 = "찬미";
+		
+		System.out.println(aoa1);
+		System.out.println(aoa2);
+		System.out.println(aoa3);
+		System.out.println(aoa4);
+		
+		//배열
+		String[] aoas = {"유나", "혜정", "설현", "찬미"};
+		System.out.println(aoas);
+			
+	}
+}
