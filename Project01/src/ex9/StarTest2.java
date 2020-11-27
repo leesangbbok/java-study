@@ -56,6 +56,18 @@ class Star2{
 		}
 	}
 	
+	public void star6() {
+		for(int i = 0; i < 4; i++) {
+			for(int j = 0; j < 5-i; j++) {
+				System.out.print("  ");
+			}
+			for(int k = 0; k < 2*i+1; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+	
 }
 
 public class StarTest2 {
@@ -72,7 +84,7 @@ public class StarTest2 {
 		System.out.println();
 		st2.star5();
 		System.out.println();
-		//st2.star6();
+		st2.star6();
 		
 	}
 

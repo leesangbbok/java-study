@@ -18,7 +18,11 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="ex9.Star"/>
 <fullyQualifiedTypeName name="ex9.Star2"/>
+<fullyQualifiedTypeName name="ex01.SungjukTest01"/>
+<fullyQualifiedTypeName name="ex01.Sunjuk"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ex01.getA1"/>
 </qualifiedTypeNameHistroy>
