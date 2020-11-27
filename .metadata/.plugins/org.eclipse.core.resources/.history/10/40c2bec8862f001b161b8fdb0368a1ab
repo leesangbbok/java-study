@@ -1,0 +1,10 @@
+package ex9;
+
+public class RepeatTest {
+
+	public static void main(String[] args) {
+		System.out.println("IU");
+		
+	}
+
+}

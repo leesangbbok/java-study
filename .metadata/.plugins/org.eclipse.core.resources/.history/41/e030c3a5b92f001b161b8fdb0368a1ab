@@ -1,0 +1,19 @@
+package ex9;
+
+class Star{
+	public void star1() {
+		
+	}
+}
+
+public class StarTest1 {
+
+	
+	
+	public static void main(String[] args) {
+		//º°Âï±â
+		
+		star1();
+	}
+
+}

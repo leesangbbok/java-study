@@ -1,0 +1,33 @@
+package ex9;
+
+class Star{
+	//star1 함수
+	public void star1() {
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+	}
+	
+	//star2 함수
+	public void star2() {
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+	}
+}
+
+public class StarTest1 {
+
+	
+	
+	public static void main(String[] args) {
+		//별찍기
+		Star st = new Star();
+		st.star1();
+	}
+
+}

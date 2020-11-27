@@ -1,0 +1,34 @@
+package ex9;
+
+import java.util.Scanner;
+
+public class RepeatTest {
+
+	public static void main(String[] args) {
+		int coin;	
+		Scanner sc = new Scanner(System.in);
+		coin = sc.nextInt();
+		
+			for (int i =1; i <= coin ; i++) {
+				System.out.print(i + ". IU");
+				System.out.print("\n");
+			}
+			System.out.println();
+			
+			for (int i = 1; i <= coin; i++) {
+				System.out.println("제니");
+			}
+			System.out.println();
+			
+			for (int i = coin; i >= 1; i--) {
+				System.out.println(i + ". IU");
+			}
+			
+			//무한 반복
+//			for (;;) {
+//				System.out.println("IU");
+//			}
+			
+	}
+
+}

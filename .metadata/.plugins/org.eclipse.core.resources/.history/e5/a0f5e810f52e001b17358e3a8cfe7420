@@ -1,7 +1,0 @@
-package ex7;
-
-public class SwitchTest2 {
-	public static void main(String[] args) {
-		
-	}
-}

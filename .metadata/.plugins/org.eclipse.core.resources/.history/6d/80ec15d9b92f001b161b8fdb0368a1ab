@@ -1,0 +1,31 @@
+package ex9;
+
+class Star{
+	public void star1() {
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+	}
+	
+	public void star2() {
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+		System.out.println("* * * * *");
+	}
+}
+
+public class StarTest1 {
+
+	
+	
+	public static void main(String[] args) {
+		//º°Âï±â
+		Star st = new Star();
+		st.star1();
+	}
+
+}
