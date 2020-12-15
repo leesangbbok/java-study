@@ -40,6 +40,8 @@ public class StringTest {
 		System.out.println(s5 == s6);    //주소비교 false
 		System.out.println(s5.equals(s6)); //데이터비교 true
 		
+		.equalsIgnoreCase() //대소문자 구분없이 비교함
+		
 		//---------------------------------------------
 		
 		//문자, 문자열 찾기
