@@ -13,7 +13,7 @@ public class TestMunje {
 	// ex) 서울8901, 부산2300 . . .
 	
 	
-	private static ArrayList<String> sidoList;
+	private static ArrayList<String> sidoList; 
 	private static ArrayList<Integer> bunjiCnt;
 	static int cnt = 0;
 	public static void main(String[] args) throws IOException {
@@ -37,6 +37,7 @@ public class TestMunje {
 			sidoList.add(si[i]);
 		}
 		
+		//각 시도별 우편번호가 총 몇개인지 카운트하기 위해 전부 다 0으로 초기화
 		bunjiCnt = new ArrayList<>();
 		for (int i = 0; i < sidoList.size(); i++) {
 			bunjiCnt.add(0);
@@ -52,8 +53,8 @@ public class TestMunje {
 		FileReader     fr     = new FileReader(fname1);
 		BufferedReader br     = new BufferedReader(fr); //BufferedReader사용이유 : FileReader로 읽으면 하드디스크로 읽어서 처리 하기때문에 속도가 많이 느림 그래서 BufferedReader로 읽는속도를 향상시킴
 		
-		String line = "";
-		br.readLine();
+		String line = ""; //초기화 공백값으로 
+		br.readLine(); //우편번호데이터 첫 번째 라인이 필요없기때문에 다음줄로 건너뛴다.
 		while((line = br.readLine()) != null) {
 			String[] li = line.trim().split(",");
 			
