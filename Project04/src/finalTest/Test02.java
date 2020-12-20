@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+//부산지역에 구 목록만 출력하기
+
 public class Test02 {
 
 	public static void main(String[] args)throws IOException {
