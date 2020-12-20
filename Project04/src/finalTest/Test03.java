@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+//부산광역시 부산진구 동 모두 출력하기
+
 public class Test03{
 
 	public static void main(String[] args)throws IOException {
