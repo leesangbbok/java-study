@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
+//동명만 Scanner로 입력받아 각 주소 출력하기
+
 public class Test01 {
 
 	public static void main(String[] args) throws IOException {
