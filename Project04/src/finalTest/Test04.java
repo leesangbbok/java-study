@@ -8,6 +8,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+//지역별로 주소를 각각 메모장파일로 생성하기 ex ) 서울.txt, 부산,txt, 울산.txt ....충북.txt 까지
+
 public class Test04{
 
 	public static void main(String[] args)throws IOException {
